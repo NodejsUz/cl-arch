@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "tsc --watch --preserveWatchOutput",
-    "test": "",
-    "start": "node --watch dist/index.js",
+    "start:dev": "ts-node ./src/main.ts",
+    "start": "node dist/main.js",
     "dev:esbuild": "pnpm run build --watch",
     "format": "prettier --write \"{src,apps,libs,test}/**/*.ts\"",
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "build": "rimraf ./build && tsc"
   },
   "keywords": [],
   "author": "",
