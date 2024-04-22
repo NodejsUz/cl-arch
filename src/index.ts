@@ -1,6 +1,5 @@
-
-export function main(): Promise<void> {
-  return '';
+export function main() {
+  return 'main';
 }
 
 main();
