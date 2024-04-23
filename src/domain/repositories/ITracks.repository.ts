@@ -1,5 +1,5 @@
-import { IResultId } from "@src/common/IResultId";
-import { ICreateTrack, ITrackModel } from "../models/track.model";
+import { IResultId } from '@src/common/IResultId';
+import { ICreateTrack, ITrackModel } from '../models/track.model';
 
 export interface ITrackRepository {
   findAllTracks(): Promise<ITrackModel[]>;

@@ -1,5 +1,5 @@
-import { IResultId } from "@src/common/IResultId";
-import { IArtistModule, ICreateArtist } from "../models/artist.model";
+import { IResultId } from '@src/common/IResultId';
+import { IArtistModule, ICreateArtist } from '../models/artist.model';
 
 export interface IArtistRepository {
   findAllArtists(): Promise<IArtistModule[]>;

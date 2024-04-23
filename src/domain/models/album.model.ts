@@ -5,4 +5,4 @@ export interface IAlbumModule {
   artistId: string | null; // refers to Artist
 }
 
-export interface ICreateAlbum extends Omit<IAlbumModule, 'id'> {};
+export interface ICreateAlbum extends Omit<IAlbumModule, 'id'> {}

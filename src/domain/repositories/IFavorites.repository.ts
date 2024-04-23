@@ -1,5 +1,5 @@
-import { IResultId } from "@src/common/IResultId";
-import { IFavoritesResponse } from "../models/favorites.model";
+import { IResultId } from '@src/common/IResultId';
+import { IFavoritesResponse } from '../models/favorites.model';
 
 export interface IFavoritesRepository {
   getAllFavs(): Promise<IFavoritesResponse>;

@@ -7,7 +7,7 @@ export interface IUserModel {
   updatedAt: number; // timestamp of last update
 }
 
-export interface ICreateUser extends Pick<IUserModel, 'login'|'password'> {};
+export interface ICreateUser extends Pick<IUserModel, 'login' | 'password'> {}
 
 export interface IUpdatePassword {
   oldPassword: string; // previous password

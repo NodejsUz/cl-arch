@@ -1,4 +1,4 @@
-import { IFavoritesModule } from "../models/favorites.model";
+import { IFavoritesModule } from '../models/favorites.model';
 
 export class FavoritesEntity implements IFavoritesModule {
   artists: string[];
@@ -6,8 +6,8 @@ export class FavoritesEntity implements IFavoritesModule {
   tracks: string[];
 
   constructor(artists: string[], albums: string[], tracks: string[]) {
-      this.albums = albums;
-      this.artists = artists;
-      this.tracks = tracks;
+    this.albums = albums;
+    this.artists = artists;
+    this.tracks = tracks;
   }
 }

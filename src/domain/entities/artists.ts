@@ -1,5 +1,5 @@
-import { randomUUID } from "crypto";
-import { IArtistModule } from "../models/artist.model";
+import { randomUUID } from 'crypto';
+import { IArtistModule } from '../models/artist.model';
 
 export class ArtistsEntity implements IArtistModule {
   id: string;

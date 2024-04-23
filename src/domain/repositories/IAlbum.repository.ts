@@ -1,5 +1,5 @@
-import { IResultId } from "@src/common/IResultId";
-import { IAlbumModule, ICreateAlbum } from "../models/album.model";
+import { IResultId } from '@src/common/IResultId';
+import { IAlbumModule, ICreateAlbum } from '../models/album.model';
 
 export interface IAlbumRepository {
   findAllAlbums(): Promise<IAlbumModule[]>;

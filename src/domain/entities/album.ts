@@ -1,5 +1,5 @@
-import { randomUUID } from "crypto";
-import { IAlbumModule } from "../models/album.model";
+import { randomUUID } from 'crypto';
+import { IAlbumModule } from '../models/album.model';
 
 export class CreateAlbumEntity implements IAlbumModule {
   id: string;

@@ -1,5 +1,9 @@
-import { IResultId } from "@src/common/IResultId";
-import { ICreateUser, IUpdatePassword, IUserModel } from "../models/users.model";
+import { IResultId } from '@src/common/IResultId';
+import {
+  ICreateUser,
+  IUpdatePassword,
+  IUserModel,
+} from '../models/users.model';
 
 export interface IUserRepository {
   findAllUsers(): Promise<IUserModel[]>;

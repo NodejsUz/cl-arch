@@ -1,5 +1,5 @@
-import { randomUUID } from "crypto";
-import { IUserModel } from "../models/users.model";
+import { randomUUID } from 'crypto';
+import { IUserModel } from '../models/users.model';
 
 export class UserEntity implements IUserModel {
   id: string;
@@ -8,8 +8,14 @@ export class UserEntity implements IUserModel {
   version: number;
   createdAt: number;
   updatedAt: number;
-  
-  constructor(login: string, password: string, version: number, createdAt: number, updatedAt: number) {
+
+  constructor(
+    login: string,
+    password: string,
+    version: number,
+    createdAt: number,
+    updatedAt: number,
+  ) {
     this.id = randomUUID();
     this.login = login;
     this.password = password;
