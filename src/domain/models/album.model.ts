@@ -1,6 +1,8 @@
-export interface IAlbum {
+export interface IAlbumModule {
   id: string; // uuid v4
   name: string;
   year: number;
   artistId: string | null; // refers to Artist
 }
+
+export interface ICreateAlbum extends Omit<IAlbumModule, 'id'> {};
