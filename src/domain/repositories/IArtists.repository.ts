@@ -1,4 +1,4 @@
-import { IResultId } from '@src/common/IResultId';
+import { IResultId } from '@src/common/interfaces/IResultId';
 import { IArtistModule, ICreateArtist } from '../models/artist.model';
 
 export interface IArtistRepository {

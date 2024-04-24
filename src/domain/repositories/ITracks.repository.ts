@@ -1,4 +1,4 @@
-import { IResultId } from '@src/common/IResultId';
+import { IResultId } from '@src/common/interfaces/IResultId';
 import { ICreateTrack, ITrackModel } from '../models/track.model';
 
 export interface ITrackRepository {
